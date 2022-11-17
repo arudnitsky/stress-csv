@@ -1,2 +1,2 @@
 # stress-csv
-Add pronunciation stress marks to csv files intended for importing into Anki. The first field is ukrainian, the second is the english translation.
+Quick python script to add pronunciation stress marks to csv files intended for importing into Anki. The script expects the first field to be in ukrainian.
