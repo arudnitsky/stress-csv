@@ -8,4 +8,5 @@ if __name__ == "__main__":
     with open(sys.argv[1], newline="") as csvfile:
         csvreader = list(csv.reader(csvfile, delimiter=","))
         for row in csvreader:
-            print(stressify(row[0]) + "," + ",".join(row[1:]))
+            if ( row[0][0] != "#"):
+                print(stressify(row[0]) + "," + ",".join(row[1:]))

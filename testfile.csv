@@ -1,3 +1,4 @@
+# this is a comment. Comments will be ignored
 уроки,lessons
 cловник,dictionary
 збентежений,confused
@@ -26,7 +27,7 @@ cловник,dictionary
 перекласти,to translate
 злий,evil
 Я не згоден,I do not agree
-кожен=кожний(m) кожна(f),everyone=everyone
+"кожен=кожний(m), кожна(f)",everyone=everyone
 кожного дня = щодня,every day = every day
 залежно від,depending on
 ділитися,share
