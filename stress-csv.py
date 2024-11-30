@@ -1,7 +1,13 @@
 #!/opt/homebrew/bin/python3
-import sys
 import csv
+import sys
+
 from ukrainian_word_stress import Stressifier, StressSymbol
+
+# Workaround for FutureWarning: You are using `torch.load` with `weights_only=False` in stanza used in ukrainian_word_stress
+import warnings
+warnings.simplefilter(action="ignore", category=FutureWarning)
+
 
 if __name__ == "__main__":
     stressify = Stressifier(stress_symbol=StressSymbol.CombiningAcuteAccent)
