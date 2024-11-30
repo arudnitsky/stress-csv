@@ -21,7 +21,7 @@ if __name__ == "__main__":
     for row in csvreader:
         if row[0][0] != "#":
             print(stressify(row[0]), end="")
-            fieldCount = len(row) - 1
+            fieldCount = len(row) - 1 # wtf is this for? What I really need is to quote each field.
             for index in range(0, len(row) - 1):
                 print("," + row[index + 1], end="")
             print()
